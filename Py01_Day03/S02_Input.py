@@ -1,0 +1,1 @@
+print("Isim: " +input("Isiminizi Giriniz: ") + "," + "Soyisim: " + input("Soyisiminizi Giriniz: "))
