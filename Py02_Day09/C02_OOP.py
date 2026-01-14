@@ -16,12 +16,17 @@ class Insan:
         print("init Methodu Calisti")
 
 
-        #Methods
+    #Methods
+    def selam(self):
+        print("Merhaba ben " + self.isim)
 
+    #Methods
+    def yasHesaplama(self):
+        return  2026 - self.dogumYili
 
 #Object (Instance)
 hakan = Insan(123456, "Hakan", "Coskun", 2012, "0 (-)")
-#akif  = Insan()
+akif  = Insan(123456, "Akif", "Sert", 2012, "0 (+)")
 #berra = Insan()
 #nazif = Insan()
 
@@ -37,3 +42,9 @@ print(f"Kimlik Numarasi: {hakan.kimlikNo}"
       f"\nSoyisim: {hakan.soyisim}"
       f"\nAdres: {hakan.adres}"
       f"\nKan Grubu: {hakan.kanGrubu}")
+
+hakan.selam()
+akif.selam()
+
+print(f"adim: {hakan.isim}, yasim: {hakan.yasHesaplama()}")
+print(f"adim: {akif.isim}, yasim: {akif.yasHesaplama()}")
