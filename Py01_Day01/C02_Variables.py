@@ -9,6 +9,7 @@ memleket = "Eskisehir Guzel Bir Ilimizdir"
 sinif = 'p'
 sinavNotu = 85.7
 
+
 print(type(yas)) #<class 'int'>   (Tamsayilar icin kullanilir)
 print(type(memleket)) #<class 'str'>   (Metinsel ifadeler icin kullanilir)
 print(type(sinif)) #<class 'str'>
