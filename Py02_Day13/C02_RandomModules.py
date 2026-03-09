@@ -1,7 +1,9 @@
 #C02_RandomModules.py
 
 import  random
-#sonuc = dir(random)
+sonuc = dir(random)
+
+print(sonuc)
 
 sonuc = random.random() # 0 - 1 arasi bir sayi tutar
 sonuc = random.random() * 10

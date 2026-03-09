@@ -14,9 +14,10 @@
 
 
 #from  math import *
-from  math import factorial, ceil
+from  math import factorial, ceil, floor
 deger = factorial(5)
 deger = ceil(8.5)
+deger = floor(5.8)
 
 
 print(deger)
