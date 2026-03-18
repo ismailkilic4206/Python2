@@ -1,0 +1,4 @@
+akif sert:75,85
+berra berra:85,95
+Hakan c:95,100
+yigit er:50,95
